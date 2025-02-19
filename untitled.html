@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+        body {
+            background-color: #f8f9fa;
+            color: #343a40;
+            line-height: 1.6;
+        }
+        nav {
+            background: #343a40;
+            padding: 15px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            padding: 10px 20px;
+            margin: 5px;
+            display: inline-block;
+            transition: 0.3s;
+        }
+        nav a:hover {
+            background: #17a2b8;
+            border-radius: 5px;
+        }
+        header {
+            text-align: center;
+            padding: 60px 0;
+            background: linear-gradient(to right, #17a2b8, #007bff);
+            color: white;
+            font-size: 32px;
+            font-weight: bold;
+            letter-spacing: 2px;
+        }
+        section {
+            max-width: 900px;
+            margin: 30px auto;
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+        h2 {
+            border-bottom: 4px solid #17a2b8;
+            padding-bottom: 10px;
+            margin-bottom: 25px;
+            color: #007bff;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #dee2e6;
+            padding: 15px;
+            text-align: center;
+        }
+        th {
+            background: #007bff;
+            color: white;
+        }
+        ul {
+            list-style: none;
+            padding-left: 20px;
+        }
+        ul li {
+            padding: 10px 0;
+            font-size: 18px;
+        }
+        ul li::before {
+            content: '\2714';
+            color: #17a2b8;
+            font-weight: bold;
+            display: inline-block;
+            width: 1.5em;
+        }
+        footer {
+            text-align: center;
+            padding: 30px;
+            background: #343a40;
+            color: white;
+            margin-top: 40px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#Education">Education</a>
+        <a href="#Skills">Skills</a>
+        <a href="#Add-skills">Additional Skills</a>
+        <a href="#Achievement">Achievements</a>
+        <a href="#personalinfo">Personal Info</a>
+    </nav>
+    <header>
+        <h1>My Portfolio</h1>
+    </header>
+    <section id="about">
+        <h2>Basic Information</h2>
+        <p><strong>First Name:</strong> Naresh Kumar</p>
+        <p><strong>Qualification:</strong> B.Tech</p>
+        <p><strong>Address:</strong> Chennai</p>
+        <p><strong>Email:</strong> nareskumarbalamurugan@gmail.com</p>
+        <p><strong>Phone:</strong> 1234567890</p>
+    </section>
+    <section id="Education">
+        <h2>Educational Qualification</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Degree/Standard</th>
+                    <th>Institution</th>
+                    <th>Year of Passing</th>
+                    <th>Percentage</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>B.Tech-IT</td>
+                    <td>MIT, Chennai</td>
+                    <td>2027</td>
+                    <td>99.99%</td>
+                </tr>
+                <tr>
+                    <td>XII</td>
+                    <td>School Name</td>
+                    <td>2022</td>
+                    <td>97%</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section id="Skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Programming in Python</li>
+            <li>Web Development</li>
+            <li>Database Management</li>
+            <li>Problem-Solving</li>
+        </ul>
+    </section>
+    <section id="Add-skills">
+        <h2>Additional Skills</h2>
+        <ul>
+            <li>Leadership</li>
+            <li>Teamwork</li>
+            <li>Communication</li>
+            <li>Time Management</li>
+        </ul>
+    </section>
+    <section id="Achievement">
+        <h2>Achievements</h2>
+        <ul>
+            <li>1st Prize in Coding Competition</li>
+            <li>2nd Prize in Web Development Competition</li>
+            <li>3rd Prize in Hackathon</li>
+            <li>Secured 97% in Higher Secondary</li>
+            <li>Distinction Achiever in B.Tech-IT</li>
+        </ul>
+    </section>
+    <section id="personalinfo">
+        <h2>Personal Information</h2>
+        <p><strong>Father's Name:</strong> Mr. Balamurugan Navakotty</p>
+        <p><strong>Mother's Name:</strong> Mrs. Deepa Balamurgan</p>
+        <p><strong>Date of Birth:</strong> 14-12-2006</p>
+        <p><strong>Hobbies:</strong> Interactive projects in free time</p>
+    </section>
+    <footer>
+        <p>I hereby declare that all the above information is true to my knowledge.</p>
+        <p><strong>Date:</strong> 19/02/2025</p>
+        <p><strong>Place:</strong> Chennai</p>
+        <p><strong>Signature:</strong> ______________________</p>
+    </footer>
+</body>
+</html>
